@@ -14,7 +14,7 @@ update_ip_catalog
  
 # make block design
 
-source ./tcl/radio_periph_lab.tcl 
+source ./tcl/design_1.tcl 
 
 close_project
 
