@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Aug  7 16:48:42 2023
+# Process ID: 35628
+# Current directory: C:/Users/berkt/Downloads/radio_periph_lab-main/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20708 C:\Users\berkt\Downloads\radio_periph_lab-main\vivado\radio_periph_lab.xpr
+# Log file: C:/Users/berkt/Downloads/radio_periph_lab-main/vivado/vivado.log
+# Journal file: C:/Users/berkt/Downloads/radio_periph_lab-main/vivado\vivado.jou
+# Running On: DESKTOP-USLVQI7, OS: Windows, CPU Frequency: 3500 MHz, CPU Physical cores: 32, Host memory: 68636 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/berkt/Downloads/radio_periph_lab-main/vivado/radio_periph_lab.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/berkt/Downloads/radio_periph_lab-main/vivado/radio_periph_lab.srcs/sources_1/bd/design_1/design_1.bd}
+ipx::edit_ip_in_project -upgrade true -name full_radio_v1_0_project -directory C:/Users/berkt/Downloads/radio_periph_lab-main/vivado/radio_periph_lab.tmp/full_radio_v1_0_project c:/Users/berkt/Downloads/radio_periph_lab-main/ip_repo/full_radio/component.xml
+update_compile_order -fileset sources_1
+close_project
