@@ -59,7 +59,7 @@ void print_benchmark(volatile unsigned int *periph_base)
         stop_time = *(periph_base+RADIO_TUNER_TIMER_REG_OFFSET);
     printf("Elapsed time in clocks = %u\n",stop_time-start_time); 
     float time_spent = (stop_time - start_time) / 125000000.0;
-    float bytes_transferred = 2048*8;
+    float bytes_transferred = 2048*4;
     float throughtput = (bytes_transferred/time_spent)/1000000;
     // please insert your code here for calculate the actual throughput in Mbytes/second
     // how much data was transferred? How long did it take?
